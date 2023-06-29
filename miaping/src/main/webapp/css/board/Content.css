@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+*{
+  /* font-family: 'Nanum Gothic Coding', monospace; */
+	color:white;
+}
+
+body{
+	margin : 30px;
+	background-color: #000000;
+}
+
+.container{
+	width:100%;
+}
+
+.center{
+	margin:0 auto;
+	width:60%;
+	background-color: #a2a2a255;
+	border-radius: 10px;
+}
+
+.left{
+	float: left;
+	width: 18%;
+	border-radius: 10px;
+	background-color: #a2a2a255;
+}
+
+.content_header{
+	padding : 20px;
+	height: 100px;
+	border-bottom: 1px solid #ddd;
+}
+
+.h_left{
+	float:left;
+}
+
+.h_left span{
+	padding: 8px;
+}
+
+.h_left span:not(:first-child){
+	border-left: 1px solid #ddd;
+}
+
+.h_right{
+	float:right;
+}
+
+.h_right span{
+	padding: 8px;
+}
+
+.h_right span:not(:first-child){
+	border-left: 1px solid #ddd;
+}
+
+.content_main{
+	padding : 40px 20px;
+	height: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.img{
+	width: 450px;
+	height: 350px;
+}
+
+
+.content_footer{
+	height: 80px;
+	border-bottom: 1px solid #ddd;
+}
+
+.good{
+	width: 100px;
+	height: 30px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.goodbtn{
+	font-size: 15px;
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: #a2a2a255;
+	border-radius: 10px;
+}
+
+.comment{
+	height: 500px;
+}
+
+#mine{
+	margin-top:2%;
+}
+
+#btnBox{
+	margin-bottom: 7%;
+	margin-top: 2%;
+}
+
+
+
+button, input[type=submit]{
+	border:none;
+	padding:10px;
+	background-color: #7f7f7f;
+	border-radius: 8px;
+}
+
+.container .left .sidebar a,
+.center .list th,
+.center .list td{
+	color:white;
+}
+
+.lb{
+	color:white;
+}
+
+textarea{
+	background-color: #a2a2a255;
+	border:none;
+	outline: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	/* text-align: center; */
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-bottom: 0;
+}
+
+h3{
+	margin-left: 20px;
+}

@@ -1,0 +1,46 @@
+
+input, button{
+  border-radius: 5px;
+  outline:none;
+  margin-bottom : 10px;
+  font-size: 20px;
+}
+
+input{
+  border-color: #cccdce;
+  border-width: 0 0 1px 0;
+  width: 70%;
+  caret-color:#424242;
+  padding:2%;
+  margin-bottom: 4%;
+}
+
+.imgBox{
+  text-align: center;
+}
+
+img{
+  max-width: 80%;
+	width: 600px;
+}
+
+
+#signB:focus{
+  background-color: #6f93a9;
+}
+
+#signB{
+  margin-left: 1%;
+  border:none;
+  width:70%;
+  color: white;
+  background-color: #e8e9ea;
+  margin-top: 1%;
+  padding: 3% 4% 3% 4%;
+}
+
+#check{
+  position: absolute;
+  width: 2%;
+  padding-top: 2%;
+}

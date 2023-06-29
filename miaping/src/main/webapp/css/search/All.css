@@ -1,0 +1,30 @@
+html, body{
+  height:100%;
+  width:100%;
+}
+
+body{
+  color:white;
+  display: inline-block;
+}
+
+ul{
+  list-style:none;
+  background-color: #fff;
+}
+li{
+  float: left;
+  margin-right : 30px;
+}
+
+a{
+  color: rgb(97, 97, 97);
+  text-decoration-line: none;
+}
+
+hr{
+  border:0;
+  height: 1px;
+  background-color: rgb(97, 97, 97);
+  margin-top: 20px;
+}

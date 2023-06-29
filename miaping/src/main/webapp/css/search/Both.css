@@ -1,0 +1,62 @@
+html, body{
+  color:white;
+  height:100%;
+}
+
+table {
+  height:100%;
+  width: 100%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+th, td {
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+  text-align: center;
+}
+table {
+  /* background-color: #bbdefb; */
+  border-top:none;
+}
+
+img{
+  width:100px;
+  border-radius: 10px;
+}
+
+#small{
+  width:40px;
+}
+
+
+#start{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#end{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: start;
+}
+
+td{
+  border:none;
+}
+
+#margin{
+  height:10px;
+}
+
+#true_name, #false_name{
+text-align: start;
+}
+
+#true_name{
+  margin-right: 20px;
+}
+
+#cham{
+  width:30px;
+  margin-right: 8px;
+}
+
